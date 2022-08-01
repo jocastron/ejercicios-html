@@ -1,0 +1,35 @@
+<!DOCTYPE html public"-//W3C//DTDXHTML1.0 strict//EN"http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+strict.dtd">
+<htmlxmins="http://www.w3.org/1999/xhtml"lang="es"xml:lang="es">
+    <head>
+        <meta http-equiv="content-type"content="text/html;charset0UTF-8"/>
+        <title>Rellena tu CV</title>
+        </head>
+        <body>
+            <h3>Rellena tu CV</h3>
+            <form ation="/php/insertar..cv.php"method="post"enectype="multipart/from-data">
+        Nombre<br/>
+        <input type="text"name="nombre"value=""size="20" maxlength="30"/>
+        <br/>
+        Apellidos<br/>
+        <imput type="text"name="apellidos"value=""size="50" maxlength="80"/>
+        <br/>
+        contrase&ntilde;a.<br/>
+        <imput type="password"name="contraseña"value="" maxlength="10"/>
+        <br/>
+        DNI<br/>
+        <input type="text"name="dni"value=""size="10"maxlength="9"/>
+        <br/>
+        sexo<br/>
+        <input type="radio"name="sexo"value="hombre"checked="checked"/>Hombre<br/>
+        <input type="radio"name="sexo"value="mujer"/>Mujer
+        <br/><br/>
+        Incluir mi foto<input type="file"name="foto"/>
+        
+        <br/><br/>
+        <imput name="suscribir"type="checkbox"value="suscribir"checked="checked"/>Suscribirme al boletin de novedades
+        <br/><br/>
+        <imput type="submit"name="enviar"value="Guardar cambios"/>
+        <imput type="reset"name="limpiar"value="Borrar los datos introducidos"/>
+    </form>    
+    </body>
